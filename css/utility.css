@@ -1,0 +1,67 @@
+.border {
+    border: 2px solid red;
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.bg-black {
+    background-color: black;
+    color: white;
+}
+
+.invert {
+    filter: invert(1);
+}
+
+.bg-grey {
+    background-color: #121212;
+}
+
+.rounded {
+    border-radius: 7px;
+}
+
+.m-1 {
+    margin: 5px;
+}
+
+.p-1 {
+    padding: 10px;
+}
+
+
+
+/* Webkit (Chrome, Safari, newer versions of Opera) */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #333; /* Dark background color */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #666; /* Dark color for the scrollbar thumb */
+    border-radius: 5px;
+  }
+  
+  /* Firefox */
+  /* Note: Firefox currently does not support styling the scrollbar */
+  /* You can use JavaScript libraries like 'simplebar' for custom scrollbars in Firefox */
+  
+  /* Edge */
+  /* Edge (and Internet Explorer) currently do not support styling the scrollbar */
+  
+  /* For a cross-browser solution, consider using JavaScript libraries like 'simplebar' or 'perfect-scrollbar' */
+  
